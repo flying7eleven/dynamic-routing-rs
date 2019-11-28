@@ -1,0 +1,12 @@
+[package]
+name = "dynamic-routing-rs"
+description = "Tool for monitoring IP address changes and updating a DNS entry"
+version = "0.1.0"
+authors = ["Tim Hütz <tim@huetz.biz>"]
+edition = "2018"
+
+[[bin]]
+name = "dynamic-routing-rs"
+path = "src/bin/main.rs"
+
+[dependencies]
