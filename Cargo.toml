@@ -10,3 +10,10 @@ name = "dynamic-routing-rs"
 path = "src/bin/main.rs"
 
 [dependencies]
+chrono = "*"
+clap = {version = "*", features = ["yaml"]}
+fern = "*"
+igd = "*"
+log = "*"
+rusoto_core = "*"
+rusoto_route53 = "*"
